@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import ToursApp from "./Tours/ToursApp.jsx";
+import MenuApp from "./Menu/MenuApp";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <ToursApp />
+    <MenuApp />
   </React.StrictMode>
 );
