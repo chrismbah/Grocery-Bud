@@ -1,9 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import MenuApp from "./Menu/MenuApp";
-
+import GroceryBudApp from "./Grocery-Bud/GroceryBudApp";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <MenuApp />
+    <GroceryBudApp />
   </React.StrictMode>
 );
